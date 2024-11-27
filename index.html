@@ -9,6 +9,8 @@
 </head>
 
 <body>
+    <div id="backdrop" class="backdrop"></div>
+
     <div class="content">
         <h1>Chatbot for FAQ Answering</h1>
     </div>
@@ -22,15 +24,15 @@
                 <div class="chat__name">BOT</div>
                 <div class="chat__job">Fast Answered Questions</div>
             </div>
-            <div id="chatBody" class="chat__body">
-
-            </div>
+            <div id="chatBody" class="chat__body"></div>
             <div class="chat__footer">
-                <input id="chatInput" class="chat__input" placeholder="Введите вопрос здесь" />
+                <input id="chatInput" class="chat__input" placeholder="Enter your question here" />
             </div>
         </div>
 
-        <button id="btnOpenChat" class="open-chat"></button>
+        <button id="btnOpenChat" class="open-chat">
+            <img src="img/help.png" width="70%" />
+        </button>
     </div>
 
     <script src="js/script.js"></script>
